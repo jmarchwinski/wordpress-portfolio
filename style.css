@@ -1,0 +1,11 @@
+/*
+ Theme Name:   Illdy Theme Child
+ Theme URI:    http://example.com/illdy-child/
+ Description:  Illdy Theme Child - Illdy
+ Author:       Jaime Marchwinski
+ Author URI:   http://example.com
+ Template:     illdy
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../illdy/style.css");
