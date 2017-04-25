@@ -9,3 +9,81 @@
 */
 
 @import url("../illdy/style.css");
+/** HEADER **/
+#header .top-header .header-logo {
+	font-size: 2em;
+	line-height: 40px;
+}
+
+#header .bottom-header {
+	padding-top: 150px;
+}
+
+#header .bottom-header .section-description {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#header .top-header .header-navigation > ul {
+	margin-top: 0px;
+}
+
+
+/** ABOUT **/
+div.row {
+	font-size: 1.1em;
+	margin-bottom: -50px;
+}
+
+/** CONTACT **/
+p#contact {
+	font-size: 1.1em;
+	margin-bottom: -50px;
+}
+
+div.col-sm-12 {
+	margin-top: -20px;
+}
+
+/** FOOTER **/
+#footer .copyright {
+display: none;
+}
+
+#footer .widget {
+	display: none;
+}
+
+#footer {
+	background-color: white;
+}
+
+#footer div.bottom-footer {
+	background-color: white;
+}
+
+/** Responsive **/
+.open-responsive-menu {
+	padding-top: 0px;
+}
+
+.responsive-menu {
+	background-color: transparent;
+}
+
+@media only screen and (max-width: 992px) {
+.responsive-menu ul li a {
+	width: 100%;
+	padding: 15px;
+	display: block;
+	color: #ffde00;
+	text-align: right;
+	border-bottom: none;
+}
+}
+
+@media only screen and (max-width: 414px) {
+	#header .bottom-header h1 {
+		font-size:60px;
+	}
+}
