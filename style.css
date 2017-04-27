@@ -62,7 +62,7 @@ display: none;
 	background-color: white;
 }
 
-/** Responsive
+/** Responsive **/
 .open-responsive-menu {
 	padding-top: 0px;
 }
@@ -81,14 +81,18 @@ display: none;
 	border-bottom: none;
 }
 }
-**/
+
 @media only screen and (max-width: 414px) {
 	#header .bottom-header h1 {
 		font-size:60px;
 	}
 
-	#header .top-header .header-logo {
-		font-size: 2.5em;
+	#header .bottom-header {
+		padding-top: 50px;
+	}
+
+	/**#header .top-header .header-logo {
+		text-align: center;
 	}
 
 	.col-xs-4 {
@@ -103,8 +107,5 @@ display: none;
 	margin: 20px 100px 100px 0px;
 }
 
-#header .bottom-header {
-    padding-top: 0px;
-}
-
+**/
 }
